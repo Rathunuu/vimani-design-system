@@ -1,1 +1,529 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="VIMANI Design System - Brand foundations and reusable UI guidelines.">
+  <title>VIMANI — Design System</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <header class="topbar">
+    <a href="#overview" class="brand">
+      <span class="brand-mark">V</span>
+      <span>VIMANI <small>DESIGN SYSTEM</small></span>
+    </a>
+
+    <div class="topbar-right">
+      <span class="version">VERSION 1.0</span>
+      <a href="#guidelines" class="topbar-link">Guidelines ↗</a>
+    </div>
+  </header>
+
+  <div class="app-layout">
+
+    <aside class="sidebar">
+      <div class="sidebar-label">DESIGN SYSTEM</div>
+
+      <nav class="side-nav" aria-label="Design system navigation">
+        <a href="#overview" class="nav-link active">01. Overview</a>
+        <a href="#colors" class="nav-link">02. Colors</a>
+        <a href="#typography" class="nav-link">03. Typography</a>
+        <a href="#spacing" class="nav-link">04. Spacing & Layout</a>
+        <a href="#surfaces" class="nav-link">05. Surfaces</a>
+        <a href="#components" class="nav-link">06. Components</a>
+        <a href="#navigation" class="nav-link">07. Navigation</a>
+        <a href="#motion" class="nav-link">08. Motion</a>
+        <a href="#icons" class="nav-link">09. Icons</a>
+        <a href="#responsive" class="nav-link">10. Responsive</a>
+        <a href="#guidelines" class="nav-link">11. Guidelines</a>
+      </nav>
+
+      <div class="sidebar-footer">
+        <span class="status-dot"></span>
+        Design foundations
+        <p>Learn · Build · Access · Launch</p>
+      </div>
+    </aside>
+
+    <main class="main-content">
+
+      <!-- OVERVIEW -->
+      <section id="overview" class="section overview-section">
+        <span class="eyebrow">VIMANI / DESIGN SYSTEM</span>
+
+        <h1>Design with purpose.<br>
+          <span>Build with consistency.</span>
+        </h1>
+
+        <p class="section-intro">
+          A unified visual language for creating meaningful,
+          accessible and consistent VIMANI digital experiences.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#colors" class="btn btn-primary">Explore foundations ↗</a>
+          <a href="#components" class="btn btn-secondary">View components</a>
+        </div>
+
+        <div class="principle-grid">
+          <article class="principle-card">
+            <span class="principle-number">01</span>
+            <h3>Clarity first</h3>
+            <p>Make every experience easy to understand and navigate.</p>
+          </article>
+
+          <article class="principle-card">
+            <span class="principle-number">02</span>
+            <h3>Consistent design</h3>
+            <p>Create reusable patterns across every VIMANI page.</p>
+          </article>
+
+          <article class="principle-card">
+            <span class="principle-number">03</span>
+            <h3>People & progress</h3>
+            <p>Support every step from learning to launching.</p>
+          </article>
+
+          <article class="principle-card">
+            <span class="principle-number">04</span>
+            <h3>Accessible by default</h3>
+            <p>Design for everyone, across devices and abilities.</p>
+          </article>
+        </div>
+
+        <div class="journey-banner">
+          <span>LEARN</span>
+          <span>→</span>
+          <span>BUILD</span>
+          <span>→</span>
+          <span>ACCESS</span>
+          <span>→</span>
+          <span>LAUNCH</span>
+        </div>
+      </section>
+
+      <!-- COLORS -->
+      <section id="colors" class="section">
+        <span class="eyebrow">FOUNDATIONS / 01</span>
+        <h2>Color system</h2>
+        <p class="section-intro">
+          A balanced palette built around confidence, growth and clarity.
+          Use only the approved VIMANI brand colors.
+        </p>
+
+        <h3 class="subheading">Brand colors</h3>
+
+        <div class="color-grid">
+          <article class="color-card">
+            <div class="color-preview navy"></div>
+            <div class="color-info">
+              <h4>VIMANI Navy</h4>
+              <p>#194B75</p>
+              <span>Primary brand</span>
+            </div>
+          </article>
+
+          <article class="color-card">
+            <div class="color-preview teal"></div>
+            <div class="color-info">
+              <h4>VIMANI Teal</h4>
+              <p>#2FA6A5</p>
+              <span>Brand accent</span>
+            </div>
+          </article>
+
+          <article class="color-card">
+            <div class="color-preview aqua"></div>
+            <div class="color-info">
+              <h4>Soft Aqua</h4>
+              <p>#DDF3F3</p>
+              <span>Soft highlights</span>
+            </div>
+          </article>
+
+          <article class="color-card">
+            <div class="color-preview ice"></div>
+            <div class="color-info">
+              <h4>Ice Blue</h4>
+              <p>#F3F9FD</p>
+              <span>Page backgrounds</span>
+            </div>
+          </article>
+
+          <article class="color-card">
+            <div class="color-preview white"></div>
+            <div class="color-info">
+              <h4>White</h4>
+              <p>#FFFFFF</p>
+              <span>Main canvas</span>
+            </div>
+          </article>
+        </div>
+
+        <h3 class="subheading">Supporting text and borders</h3>
+
+        <div class="token-list">
+          <div><span class="token-dot deep-text"></span> Deep text <code>#19354D</code></div>
+          <div><span class="token-dot muted-text"></span> Muted text <code>#536B7D</code></div>
+          <div><span class="token-dot divider-color"></span> Soft divider <code>#D7E6EE</code></div>
+        </div>
+
+        <div class="info-note">
+          <strong>Color rule</strong>
+          Navy is dominant. Teal is used selectively for emphasis.
+          Never introduce unrelated brand colors or gradients.
+        </div>
+      </section>
+
+      <!-- TYPOGRAPHY -->
+      <section id="typography" class="section">
+        <span class="eyebrow">FOUNDATIONS / 02</span>
+        <h2>Typography</h2>
+        <p class="section-intro">
+          Plus Jakarta Sans is the primary typeface across the VIMANI interface.
+        </p>
+
+        <div class="font-showcase">
+          <span class="eyebrow">PRIMARY TYPEFACE</span>
+          <h3>Plus Jakarta Sans</h3>
+          <p>ABCDEFGHIJKLMNOPQRSTUVWXYZ</p>
+          <p>abcdefghijklmnopqrstuvwxyz</p>
+          <p>0123456789</p>
+        </div>
+
+        <div class="type-samples">
+          <div class="type-row">
+            <span>Hero / 56–64px / 800</span>
+            <h3 class="sample-hero">Learn. Build. Launch.</h3>
+          </div>
+          <div class="type-row">
+            <span>Heading 1 / 44–52px / 700</span>
+            <h2>Make your ideas real.</h2>
+          </div>
+          <div class="type-row">
+            <span>Heading 2 / 32–40px / 700</span>
+            <h3>Explore opportunities</h3>
+          </div>
+          <div class="type-row">
+            <span>Heading 3 / 22–28px / 600</span>
+            <h4>Build your future</h4>
+          </div>
+          <div class="type-row">
+            <span>Body / 16–18px / 400</span>
+            <p>Turn your ideas into meaningful opportunities with VIMANI.</p>
+          </div>
+          <div class="type-row">
+            <span>Small / 13–14px / 500</span>
+            <small>Supporting information and metadata</small>
+          </div>
+        </div>
+      </section>
+
+      <!-- SPACING -->
+      <section id="spacing" class="section">
+        <span class="eyebrow">FOUNDATIONS / 03</span>
+        <h2>Spacing & layout</h2>
+        <p class="section-intro">
+          A consistent 4px base scale creates balance and visual rhythm.
+        </p>
+
+        <div class="spacing-list">
+          <div class="spacing-item"><span>4px</span><div style="width:4px"></div><code>space-1</code></div>
+          <div class="spacing-item"><span>8px</span><div style="width:8px"></div><code>space-2</code></div>
+          <div class="spacing-item"><span>12px</span><div style="width:12px"></div><code>space-3</code></div>
+          <div class="spacing-item"><span>16px</span><div style="width:16px"></div><code>space-4</code></div>
+          <div class="spacing-item"><span>24px</span><div style="width:24px"></div><code>space-6</code></div>
+          <div class="spacing-item"><span>32px</span><div style="width:32px"></div><code>space-8</code></div>
+          <div class="spacing-item"><span>48px</span><div style="width:48px"></div><code>space-12</code></div>
+          <div class="spacing-item"><span>64px</span><div style="width:64px"></div><code>space-16</code></div>
+          <div class="spacing-item"><span>80px</span><div style="width:80px"></div><code>space-20</code></div>
+          <div class="spacing-item"><span>96px</span><div style="width:96px"></div><code>space-24</code></div>
+        </div>
+
+        <div class="layout-specs">
+          <div><strong>1200–1280px</strong><span>Maximum content width</span></div>
+          <div><strong>12 columns</strong><span>Desktop grid</span></div>
+          <div><strong>8 columns</strong><span>Tablet grid</span></div>
+          <div><strong>4 columns</strong><span>Mobile grid</span></div>
+        </div>
+      </section>
+
+      <!-- SURFACES -->
+      <section id="surfaces" class="section">
+        <span class="eyebrow">FOUNDATIONS / 04</span>
+        <h2>Surfaces</h2>
+        <p class="section-intro">
+          Calm, clean surfaces with soft corners and subtle depth.
+        </p>
+
+        <div class="surface-grid">
+          <article class="surface-card surface-white">
+            <span>01 / CANVAS</span>
+            <h3>White surface</h3>
+            <p>Main page canvas and raised cards.</p>
+          </article>
+          <article class="surface-card surface-ice">
+            <span>02 / BACKGROUND</span>
+            <h3>Ice Blue</h3>
+            <p>Alternate sections and page backgrounds.</p>
+          </article>
+          <article class="surface-card surface-aqua">
+            <span>03 / SOFT PANEL</span>
+            <h3>Soft Aqua</h3>
+            <p>Callouts and journey highlights.</p>
+          </article>
+          <article class="surface-card surface-navy">
+            <span>04 / NAVY BAND</span>
+            <h3>Navy surface</h3>
+            <p>High-impact CTA and footer bands.</p>
+          </article>
+        </div>
+
+        <div class="token-list">
+          <div>Card radius <code>16–20px</code></div>
+          <div>Feature panel <code>24–28px</code></div>
+          <div>Input radius <code>10–12px</code></div>
+          <div>Button radius <code>999px</code></div>
+          <div>Border <code>1px solid #D7E6EE</code></div>
+        </div>
+      </section>
+
+      <!-- COMPONENTS -->
+      <section id="components" class="section">
+        <span class="eyebrow">UI ELEMENTS / 05</span>
+        <h2>Components</h2>
+        <p class="section-intro">
+          Reusable elements that maintain consistency throughout the website.
+        </p>
+
+        <div class="component-block">
+          <h3>Buttons</h3>
+          <div class="component-preview">
+            <button class="btn btn-primary">Get Started ↗</button>
+            <button class="btn btn-secondary">Learn More</button>
+            <button class="btn btn-text">Explore More →</button>
+          </div>
+        </div>
+
+        <div class="component-block">
+          <h3>Cards</h3>
+          <div class="component-preview card-preview">
+            <article class="demo-card">
+              <span class="demo-icon">01</span>
+              <h4>Learn new skills</h4>
+              <p>Discover pathways to grow your knowledge.</p>
+              <a href="#guidelines">Explore →</a>
+            </article>
+            <article class="demo-card aqua-card">
+              <span class="demo-icon">02</span>
+              <h4>Build your idea</h4>
+              <p>Turn concepts into practical experiences.</p>
+              <a href="#guidelines">Explore →</a>
+            </article>
+          </div>
+        </div>
+
+        <div class="component-block">
+          <h3>Form elements</h3>
+          <div class="form-demo">
+            <label for="demo-name">Full name</label>
+            <input id="demo-name" type="text" placeholder="Enter your name">
+            <label for="demo-email">Email address</label>
+            <input id="demo-email" type="email" placeholder="Enter your email">
+          </div>
+        </div>
+
+        <div class="component-block">
+          <h3>Badges</h3>
+          <div class="component-preview">
+            <span class="badge">Learning</span>
+            <span class="badge badge-teal">Building</span>
+            <span class="badge badge-outline">Launching</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- NAVIGATION -->
+      <section id="navigation" class="section">
+        <span class="eyebrow">UI ELEMENTS / 06</span>
+        <h2>Navigation</h2>
+        <p class="section-intro">
+          A clean navigation system with clear links, grouped dropdowns and one primary action.
+        </p>
+
+        <div class="navbar-demo">
+          <div class="demo-navbar">
+            <strong>VIMANI</strong>
+            <div class="demo-nav-links">
+              <a href="#overview">Home</a>
+              <a href="#typography">About</a>
+              <a href="#components">Explore</a>
+              <a href="#responsive">Resources</a>
+              <a href="#guidelines">Community</a>
+            </div>
+            <a href="#guidelines" class="btn btn-primary">Get Started ↗</a>
+          </div>
+        </div>
+
+        <div class="component-block">
+          <h3>Navigation rules</h3>
+          <ul class="guideline-list">
+            <li>Official VIMANI logo on the left.</li>
+            <li>White or lightly tinted navbar background.</li>
+            <li>Simple underline or subtle active indicator.</li>
+            <li>Keyboard-accessible dropdown navigation.</li>
+            <li>Mobile menu with visible CTA.</li>
+          </ul>
+        </div>
+      </section>
+
+      <!-- MOTION -->
+      <section id="motion" class="section">
+        <span class="eyebrow">INTERACTIONS / 07</span>
+        <h2>Motion</h2>
+        <p class="section-intro">
+          Smooth and interactive movement that supports the user experience.
+        </p>
+
+        <div class="motion-list">
+          <div><strong>80ms</strong><span>Fast — color and opacity</span></div>
+          <div><strong>160ms</strong><span>Base — buttons and dropdowns</span></div>
+          <div><strong>280ms</strong><span>Slow — card and section reveals</span></div>
+          <div><strong>600ms</strong><span>Scene — hero and journey reveals</span></div>
+          <div><strong>900ms</strong><span>Special — featured visual sequences</span></div>
+        </div>
+
+        <div class="motion-demo">
+          <div class="motion-box"></div>
+          <p>Hover over the shape to preview the motion.</p>
+        </div>
+      </section>
+
+      <!-- ICONS -->
+      <section id="icons" class="section">
+        <span class="eyebrow">VISUAL LANGUAGE / 08</span>
+        <h2>Iconography</h2>
+        <p class="section-intro">
+          One consistent outline icon family across the entire VIMANI experience.
+        </p>
+
+        <div class="icon-grid">
+          <div><span class="icon-sample">⌂</span><p>Home</p></div>
+          <div><span class="icon-sample">◎</span><p>Explore</p></div>
+          <div><span class="icon-sample">◇</span><p>Learning</p></div>
+          <div><span class="icon-sample">↗</span><p>Launch</p></div>
+        </div>
+
+        <div class="info-note">
+          Use one consistent outline icon library in production.
+          Standard sizes: 16px, 20px, 24px and 32px.
+          The symbols above are temporary visual placeholders.
+        </div>
+      </section>
+
+      <!-- RESPONSIVE -->
+      <section id="responsive" class="section">
+        <span class="eyebrow">LAYOUT / 09</span>
+        <h2>Responsive system</h2>
+        <p class="section-intro">
+          A flexible experience that adapts naturally to every screen.
+        </p>
+
+        <div class="responsive-grid">
+          <article>
+            <div class="device desktop-device"><span></span></div>
+            <h3>Desktop</h3>
+            <p>1080–1439px</p>
+            <small>Full navigation, split hero and 2–3 column grids.</small>
+          </article>
+          <article>
+            <div class="device tablet-device"><span></span></div>
+            <h3>Tablet</h3>
+            <p>600–1079px</p>
+            <small>Condensed navigation and flexible card layouts.</small>
+          </article>
+          <article>
+            <div class="device mobile-device"><span></span></div>
+            <h3>Mobile</h3>
+            <p>Under 600px</p>
+            <small>Single-column layouts and stacked actions.</small>
+          </article>
+        </div>
+      </section>
+
+      <!-- GUIDELINES -->
+      <section id="guidelines" class="section">
+        <span class="eyebrow">STANDARDS / 10</span>
+        <h2>Guidelines</h2>
+        <p class="section-intro">
+          The quality standards every VIMANI design and implementation should follow.
+        </p>
+
+        <div class="guidelines-grid">
+          <article class="guideline-card">
+            <h3>Accessibility</h3>
+            <ul class="guideline-list">
+              <li>Maintain readable text contrast.</li>
+              <li>Use semantic HTML structure.</li>
+              <li>Provide visible keyboard focus.</li>
+              <li>Give every form field a label.</li>
+              <li>Use meaningful image alt text.</li>
+            </ul>
+          </article>
+
+          <article class="guideline-card">
+            <h3>Design consistency</h3>
+            <ul class="guideline-list">
+              <li>Use approved brand color tokens only.</li>
+              <li>Maintain consistent typography.</li>
+              <li>Reuse components and spacing values.</li>
+              <li>Use one clear primary action per section.</li>
+              <li>Keep icons within one outline family.</li>
+            </ul>
+          </article>
+
+          <article class="guideline-card">
+            <h3>Content & voice</h3>
+            <ul class="guideline-list">
+              <li>Use clear and encouraging language.</li>
+              <li>Focus on outcomes and benefits.</li>
+              <li>Use verified testimonials and statistics.</li>
+              <li>Avoid exaggerated promises.</li>
+            </ul>
+          </article>
+
+          <article class="guideline-card">
+            <h3>Quality checklist</h3>
+            <ul class="guideline-list">
+              <li>Test mobile, tablet and desktop.</li>
+              <li>Test all links and interactions.</li>
+              <li>Check keyboard and touch controls.</li>
+              <li>Respect reduced-motion settings.</li>
+              <li>Review against the approved reference.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-brand">VIMANI</div>
+        <p>Learn. Build. Access. Launch.</p>
+        <span>VIMANI Design System · Version 1.0</span>
+      </footer>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
