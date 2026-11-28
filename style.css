@@ -1,4 +1,3 @@
-
 /* =========================================
    VIMANI DESIGN SYSTEM
    Version 1.0
@@ -6,7 +5,7 @@
 
 :root {
   --navy: #194B75;
-  --teal: #2FA6A5;
+  --teal: #2E6DB4;
   --aqua: #DDF3F3;
   --ice: #F3F9FD;
   --white: #FFFFFF;
@@ -1251,4 +1250,3 @@ input:focus-visible {
     transition-duration: 0.01ms !important;
   }
 }
-
