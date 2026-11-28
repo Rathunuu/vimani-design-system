@@ -4,15 +4,15 @@
 ========================================= */
 
 :root {
-  --navy: #194B75;
-  --teal: #2E6DB4;
-  --aqua: #DDF3F3;
-  --ice: #F3F9FD;
+  --navy: #1C3F78;
+  --teal: #2D6CC0;
+  --aqua: #DCE8F7;
+  --ice: #F2F6FC;
   --white: #FFFFFF;
 
-  --text-primary: #19354D;
-  --text-muted: #536B7D;
-  --divider: #D7E6EE;
+  --text-primary: #172B4D;
+  --text-muted: #55688A;
+  --divider: #D6E1F0;
 
   --font-primary: 'Plus Jakarta Sans', sans-serif;
 
@@ -32,9 +32,9 @@
   --radius-panel: 26px;
   --radius-input: 11px;
 
-  --shadow-card: 0 8px 28px rgba(25, 75, 117, 0.07);
-  --shadow-hover: 0 14px 35px rgba(25, 75, 117, 0.12);
-  --shadow-nav: 0 3px 15px rgba(25, 75, 117, 0.05);
+  --shadow-card: 0 8px 28px rgba(28, 63, 120, 0.07);
+  --shadow-hover: 0 14px 35px rgba(28, 63, 120, 0.12);
+  --shadow-nav: 0 3px 15px rgba(28, 63, 120, 0.05);
 
   --motion-fast: 80ms;
   --motion-base: 160ms;
